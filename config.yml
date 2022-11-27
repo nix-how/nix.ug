@@ -1,0 +1,51 @@
+title: "nix.ug"
+subtitle: "Nix/NixOS User Group Directory"
+logo: "logo.svg"
+
+header: true
+footer: '<p>Created with <span class="has-text-danger">❄️</span> using <a href="https://github.com/bastienwirtz/homer">Homer</a> and <a href="https://nixos.org/">Nix</a></i></a></p>'
+
+theme: default
+colors:
+  light:
+    highlight-primary: "#5277c3"
+    highlight-secondary: "#5277c3"
+    highlight-hover: "#7eb9e3"
+    background: "#f5f5f5"
+    card-background: "#ffffff"
+    text: "#363636"
+    text-header: "#ffffff"
+    text-title: "#303030"
+    text-subtitle: "#424242"
+    card-shadow: rgba(0, 0, 0, 0.1)
+    link: "#3273dc"
+    link-hover: "#363636"
+  dark:
+    highlight-primary: "#5277c3"
+    highlight-secondary: "#5277c3"
+    highlight-hover: "#7eb9e3"
+    background: "#131313"
+    card-background: "#2b2b2b"
+    text: "#eaeaea"
+    text-header: "#ffffff"
+    text-title: "#fafafa"
+    text-subtitle: "#f5f5f5"
+    card-shadow: rgba(0, 0, 0, 0.4)
+    link: "#3273dc"
+    link-hover: "#ffdd57"
+
+message:
+  style: "is-dark"
+  title: "What is a NUG?"
+  icon: "fa fa-snowflake"
+  content: "A Nix User Group (NUG) is a place where you can go to hang out with friends to learn about and use Nix. Typically this includes physical in-person meetups that happen regularly, though we catalogue online events too!"
+
+links:
+  - name: "Add a new NUG to this list"
+    icon: "fas fa-square-plus"
+    url: "https://github.com/nix-how/nix.ug#adding-a-new-user-group-to-the-list"
+
+defaults:
+  layout: list
+  colorTheme: auto
+
