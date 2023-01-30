@@ -43,7 +43,7 @@ message:
 links:
   - name: "Add a new NUG to this list"
     icon: "fas fa-square-plus"
-    url: "https://github.com/nix-how/nix.ug#adding-a-new-user-group-to-the-list"
+    url: "https://github.com/nix-how/nix.ug#adding-a-new-user-group-or-event-to-the-list"
 
 defaults:
   layout: list
