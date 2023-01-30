@@ -51,7 +51,7 @@
                 git remote add origin https://github.com/nix-how/nix.ug
                 git add .
                 git commit -m "Deploy to gh-pages"
-                git push -vvvvv -f origin gh-pages:gh-pages
+                git push -vvvvvv -f origin gh-pages:gh-pages
               '';
             }
           );
