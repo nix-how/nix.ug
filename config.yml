@@ -44,6 +44,9 @@ links:
   - name: "Add a new NUG to this list"
     icon: "fas fa-square-plus"
     url: "https://github.com/nix-how/nix.ug#adding-a-new-user-group-or-event-to-the-list"
+  - name: "Receive event funding"
+    icon: "fas fa-dollar-sign"
+    url: "https://nixos.org/community/event-funding.html"
 
 defaults:
   layout: list
