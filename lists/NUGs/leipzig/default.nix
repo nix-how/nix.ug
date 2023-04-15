@@ -1,6 +1,6 @@
 {
   keywords = "First Meetup";
-  name = "leipzig.nix | Nix User Group";
+  name = "leipzig.nix | NixOS User Group";
   subtitle = "Was machen wir heute? Nix!";
   tag = "Germany";
   target = "_blank";
