@@ -4,5 +4,5 @@
   subtitle = "Was machen wir heute? Nix!";
   tag = "Germany";
   target = "_blank";
-  url = "https://leipzig-nix.github.io/";
+  url = "https://leipzig.nix.ug";
 }
