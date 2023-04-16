@@ -5,4 +5,5 @@
   tag = "Germany";
   target = "_blank";
   url = "https://leipzig.nix.ug";
+  logo = "leipzig.nix.svg"
 }
