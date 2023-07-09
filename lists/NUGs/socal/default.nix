@@ -4,5 +4,5 @@
   subtitle = "No strict schedule";
   tag = "America";
   target = "_blank";
-  url = "https://matrix.to/#/#socal-nug:matrix.org";
+  url = "https://socal-nug.com/";
 }
