@@ -1,0 +1,9 @@
+{
+  keywords = "København Roskilde Malmö Lund Sjælland Skåne";
+  name = "Greater Copenhagen Nix User Group";
+  subtitle =  "4 times a year";
+  tag = "Denmark";
+  target = "_blank";
+  url = "https://www.meetup.com/greater-copenhagen-nixos-user-group/";
+  logo = "nixos-cph.png";
+}
