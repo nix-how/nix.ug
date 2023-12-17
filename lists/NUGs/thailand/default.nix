@@ -1,5 +1,5 @@
 {
-  keywords = "thailand chiang mai chiangmai nix nixos open source foss linux infrastructure as code"; # space separated keywords
+  keywords = "thailand chiang mai chiangmai"; # space separated keywords
   name = "NixOS Thailand";
   subtitle = "Regular Meetups in Thailand";
   tag = "Thailand";
