@@ -11,5 +11,5 @@ let
 in
 {
   inherit name;
-  items = map (n: (import n) // { logo = if ((find ".+logo\.+" n) == []) then "snowflake" else "assets/${baseNameOf n}/${baseNameOf (toString (map toString (find ".+logo\.+" n)))}"; } ) moduleFolderPaths;
+  items = map (n: (import n) // rec { icon = if logo == "" then "fas fa-snowflake" else ""; logo = if ((find ".+logo\.+" n) == []) then "" else "assets/${baseNameOf n}/${baseNameOf (toString (map toString (find ".+logo\.+" n)))}"; } ) moduleFolderPaths;
 }
