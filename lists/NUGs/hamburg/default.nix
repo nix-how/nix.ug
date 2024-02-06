@@ -5,5 +5,5 @@
   keywords = "offline hamburg germany";
   tag = "Germany";
   target = "_blank";
-  url = "https://nix-hh.de/";
+  url = "https://nix-hamburg.de/";
 }
