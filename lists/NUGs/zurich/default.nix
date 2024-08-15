@@ -1,8 +1,8 @@
 {
-  keywords = "offline in-person";
-  name = "NixOS User Group Zürich";
-  subtitle =  "No strict schedule";
+  keywords = "offline in-person zurich switzerland";
+  name = "Nix Zürich";
+  subtitle =  "The Zürich Nix community";
   tag = "Switzerland";
   target = "_blank";
-  url = "https://www.meetup.com/NixOS-User-Group-Zurich/";
+  url = "https://zurich.nix.ug";
 }
