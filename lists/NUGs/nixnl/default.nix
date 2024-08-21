@@ -4,5 +4,5 @@
   subtitle =  "No strict schedule";
   tag = "Netherlands";
   target = "_blank"; # optional html <a> tag target attribute
-  url = "https://discourse.nixos.org/t/dutch-nix-meetup/26599";
+  url = "https://discourse.nixos.org/t/nix-meetup-in-arnhem-the-netherlands/50914";
 }
