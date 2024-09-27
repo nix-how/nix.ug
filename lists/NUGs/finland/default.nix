@@ -7,5 +7,5 @@
   '';
   tag = "Finland";
   target = "_blank";
-  url = "https://nix-fi.github.io/";
+  url = "https://fi.nix.ug";
 }
