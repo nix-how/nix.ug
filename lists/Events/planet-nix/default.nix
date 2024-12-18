@@ -1,8 +1,8 @@
 {
   keywords = "";
-  name = "NixCon NA";
+  name = "Planet Nix";
   subtitle = "Yearly, North America";
   tag = "North America";
   target = "_blank";
-  url = "https://2024-na.nixcon.org/";
+  url = "https://planetnix.com/";
 }
