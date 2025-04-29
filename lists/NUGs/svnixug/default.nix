@@ -1,8 +1,8 @@
 {
   keywords = "self hosted reddit";
-  name = "Silicon Valley Nix User Group";
+  name = "Bay Area Nix/NixOS User Group";
   subtitle =  "No strict schedule";
   tag = "America";
   target = "_blank";
-  url = "https://www.svnix.com/";
+  url = "https://lu.ma/nixos";
 }
