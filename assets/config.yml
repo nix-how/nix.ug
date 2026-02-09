@@ -1,0 +1,477 @@
+title: "nix.ug"
+subtitle: "Nix/NixOS User Group Directory"
+logo: "logo.svg"
+
+header: true
+footer: '<p>Created with <span class="has-text-danger">❄️</span> using <a href="https://github.com/bastienwirtz/homer">Homer</a> and <a href="https://nixos.org/">Nix</a></i></a></p>'
+
+theme: default
+colors:
+  light:
+    highlight-primary: "#5277c3"
+    highlight-secondary: "#5277c3"
+    highlight-hover: "#7eb9e3"
+    background: "#f5f5f5"
+    card-background: "#ffffff"
+    text: "#363636"
+    text-header: "#ffffff"
+    text-title: "#303030"
+    text-subtitle: "#424242"
+    card-shadow: rgba(0, 0, 0, 0.1)
+    link: "#3273dc"
+    link-hover: "#363636"
+  dark:
+    highlight-primary: "#5277c3"
+    highlight-secondary: "#5277c3"
+    highlight-hover: "#7eb9e3"
+    background: "#131313"
+    card-background: "#2b2b2b"
+    text: "#eaeaea"
+    text-header: "#ffffff"
+    text-title: "#fafafa"
+    text-subtitle: "#f5f5f5"
+    card-shadow: rgba(0, 0, 0, 0.4)
+    link: "#3273dc"
+    link-hover: "#ffdd57"
+
+message:
+  style: "is-dark"
+  title: "What is a NUG?"
+  icon: "fa fa-snowflake"
+  content: "A Nix User Group (NUG) is a place where you can go to hang out with friends to learn about and use Nix. Typically this includes physical in-person meetups that happen regularly, though we catalogue online events too!"
+
+links:
+  - name: "Add a new NUG to this list"
+    icon: "fas fa-square-plus"
+    url: "https://github.com/nix-how/nix.ug#adding-a-new-user-group-or-event-to-the-list"
+  - name: "Receive event funding"
+    icon: "fas fa-dollar-sign"
+    url: "https://nixos.org/community/event-funding.html"
+
+defaults:
+  layout: list
+  colorTheme: auto
+
+services:
+- items:
+  - icon: fas fa-snowflake
+    keywords: ''
+    logo: ''
+    name: Nix.Vegas
+    subtitle: Yearly, Las Vegas
+    tag: North America
+    target: _blank
+    url: https://nix.vegas/
+  - icon: ''
+    keywords: ''
+    logo: assets/nixcon/logo.png
+    name: NixCon
+    subtitle: Yearly, Europe
+    tag: Europe
+    target: _blank
+    url: https://nixcon.org/
+  - icon: fas fa-snowflake
+    keywords: ''
+    logo: ''
+    name: Planet Nix
+    subtitle: Yearly, North America
+    tag: North America
+    target: _blank
+    url: https://planetnix.com/
+  name: Conferences
+- items:
+  - icon: ''
+    keywords: ''
+    logo: assets/nix.camp/logo.png
+    name: Nix.Camp
+    subtitle: Yearly, often in UK
+    tag: United Kingdom/Wales
+    target: _blank
+    url: https://nix.camp/
+  - icon: ''
+    keywords: sprint lanzarote spain
+    logo: assets/oceansprint/logo.png
+    name: Ocean Sprint
+    subtitle: Yearly, Lanzarote Spain
+    tag: Spain
+    target: _blank
+    url: https://oceansprint.org/
+  - icon: ''
+    keywords: sprint thailand
+    logo: assets/theigersprint/logo.png
+    name: Thaiger Sprint
+    subtitle: Yearly, Thailand
+    tag: Thailand
+    target: _blank
+    url: https://Thaigersprint.org/
+  - icon: ''
+    keywords: sprint romania
+    logo: assets/transylvaniasprint/logo.svg
+    name: Transylvania Sprint
+    subtitle: Yearly, Romania
+    tag: Romania
+    target: _blank
+    url: https://transylvaniasprint.org/
+  name: Sprints
+- items:
+  - icon: ''
+    keywords: online offline
+    logo: assets/aalborg/logo.svg
+    name: Nix Aalborg Community
+    subtitle: No strict schedule
+    tag: Denmark
+    target: _blank
+    url: https://matrix.to/#/#nix-aalborg:rend.al
+  - icon: fas fa-snowflake
+    keywords: offline in-person aalen germany
+    logo: ''
+    name: Aalen NixOS Meetup
+    subtitle: Every first Tuesday
+    tag: Germany
+    target: _blank
+    url: https://matrix.to/#/#nixos-aalen:matrix.org
+  - icon: ''
+    keywords: offline online in-person austria österreich graz vienna
+    logo: assets/austria/logo.svg
+    name: NixOS User Group Austria
+    subtitle: No strict schedule
+    tag: Austria
+    target: _blank
+    url: https://nixos.at
+  - icon: fas fa-snowflake
+    keywords: self hosted reddit
+    logo: ''
+    name: Bay Area Nix/NixOS User Group
+    subtitle: No strict schedule
+    tag: America
+    target: _blank
+    url: https://bayareanixos.com
+  - icon: fas fa-snowflake
+    keywords: online offline
+    logo: ''
+    name: Berlin NixOS Meetup
+    subtitle: Tuesdays Offline, Wednesdays Online
+    tag: Germany
+    target: _blank
+    url: https://www.meetup.com/Berlin-NixOS-Meetup/
+  - icon: ''
+    keywords: offline in-person bern switzerland
+    logo: assets/bern/logo.png
+    name: Nix Bern
+    subtitle: The Bern Nix community
+    tag: Switzerland
+    target: _blank
+    url: https://www.meetup.com/nix-bern/
+  - icon: ''
+    keywords: offline in-person bochum germany
+    logo: assets/bochum/logo.svg
+    name: Nix Learning Group Bochum
+    subtitle: Monthly, beginner-friendly meetup
+    tag: Germany
+    target: _blank
+    url: https://github.com/nix-community-bochum/nix-learning-group
+  - icon: ''
+    keywords: online
+    logo: assets/brazil/logo.png
+    name: NixOS Brasil
+    subtitle: Brazilian Nix/NixOS community
+    tag: Brazil
+    target: _blank
+    url: https://github.com/nixosbrasil/nixosbrasil#nixos-brasil-%EF%B8%8F
+  - icon: fas fa-snowflake
+    keywords: offline in-person
+    logo: ''
+    name: Brussels Nix User Group | BruNix
+    subtitle: Every second Monday of the month 18:00 - 21:00 CET at BeCentral
+    tag: Belgium
+    target: _blank
+    url: https://www.benix.be/
+  - icon: fas fa-snowflake
+    keywords: thailand chiang mai chiangmai
+    logo: ''
+    name: NixOS Chiang Mai
+    subtitle: Regular Meetups in Chiang Mai
+    tag: Thailand
+    target: _blank
+    url: https://matrix.to/#/#nixos-thailand:matrix.org
+  - icon: ''
+    keywords: online offline in-person cn china chinese meetup
+    logo: assets/cn/logo.svg
+    name: Nix CN
+    subtitle: The Chinese Nix community
+    tag: China
+    target: _blank
+    url: https://nixos-cn.org/
+  - icon: ''
+    keywords: Copenhagen København Roskilde Malmö Lund Sjælland Skåne
+    logo: assets/copenhagen/logo.png
+    name: NixOS Copenhagen User Group
+    subtitle: 4 times a year
+    tag: Denmark
+    target: _blank
+    url: https://www.meetup.com/greater-copenhagen-nixos-user-group/
+  - icon: ''
+    keywords: Meetup
+    logo: assets/dresden/logo.svg
+    name: nix-meetup Dresden
+    subtitle: about once a month
+    tag: Germany
+    target: _blank
+    url: https://nix-meetup.c3d2.de/about
+  - icon: fas fa-snowflake
+    keywords: offline in-person helsinki finland löyly
+    logo: ''
+    name: Nix in Finland
+    subtitle: 'Office hours in Helsinki and occasional visits to other cities in Finland.
+
+      No fixed schedule (yet).
+
+      '
+    tag: Finland
+    target: _blank
+    url: https://fi.nix.ug
+  - icon: ''
+    keywords: online
+    logo: assets/grenug/logo.svg
+    name: Grenoble Nix User Group
+    subtitle: No strict schedule
+    tag: France
+    target: _blank
+    url: https://grenug.fr/
+  - icon: ''
+    keywords: online offline
+    logo: assets/habrawo/logo.svg
+    name: Hannover Braunschweig Wolfsburg Nix User Group
+    subtitle: Monthly meetups in H/BS/WOB
+    tag: Germany
+    target: _blank
+    url: https://habrawo.nix.ug
+  - icon: ''
+    keywords: offline hamburg germany
+    logo: assets/hamburg/logo.svg
+    name: Nix Hamburg User Group
+    subtitle: Biweekly meeting on thursday
+    tag: Germany
+    target: _blank
+    url: https://nix-hamburg.de/
+  - icon: ''
+    keywords: bangalore india asia nix nixos open source foss linux infrastructure
+      as code
+    logo: assets/india/logo.png
+    name: NixOS Asia/India
+    subtitle: Regular Meetups in Bangalore and, eventually, all over Asia
+    tag: India
+    target: _blank
+    url: https://nixos.asia/en
+  - icon: fas fa-snowflake
+    logo: ''
+    name: Nix/NixOS Israel User Group
+    subtitle: No strict schedule
+    tag: Israel
+    target: _blank
+    url: https://israel.nix.ug
+  - icon: fas fa-snowflake
+    keywords: online
+    logo: ''
+    name: Nix Italia
+    subtitle: No strict schedule
+    tag: Italy
+    target: _blank
+    url: https://matrix.to/#/#it:nixos.org
+  - icon: ''
+    keywords: offline
+    logo: assets/livnug/logo.svg
+    name: Liverpool Nix User Group (LivNUG)
+    subtitle: The first Thursday of each month at 7pm GMT
+    tag: United Kingdom
+    target: _blank
+    url: https://liverpool.nix.ug
+  - icon: fas fa-snowflake
+    keywords: offline
+    logo: ''
+    name: London Nix User Group
+    subtitle: About once every two months
+    tag: United Kingdom
+    url: https://discourse.nixos.org/t/london-nix-user-group/27825
+  - icon: fas fa-snowflake
+    keywords: offline in-person
+    logo: ''
+    name: Madrid Nix / NixOS User Group
+    subtitle: No strict schedule
+    tag: Spain
+    target: _blank
+    url: https://www.meetup.com/madrid-nix-nixos-user-group
+  - icon: ''
+    keywords: offline in-person maryland dc virginia meetup
+    logo: assets/maryland/logo.png
+    name: Maryland Nix Users Group
+    subtitle: No strict schedule
+    tag: America
+    target: _blank
+    url: https://discourse.nixos.org/t/april-23-maryland-dc-virginia-nix-users-group/42723
+  - icon: ''
+    keywords: offline in-person milan italy
+    logo: assets/milan/logo.svg
+    name: Nix Milano
+    subtitle: The Milan Nix community
+    tag: Italy
+    target: _blank
+    url: https://milano.nix.pizza
+  - icon: fas fa-snowflake
+    keywords: offline in-person munich germany
+    logo: ''
+    name: Munich NixOS Meetup
+    subtitle: 'Agendaless meetup about NixOS, nixpkgs, Nix and the rest of the Nix
+      ecosystem.
+
+      On the second Friday of each month.
+
+      Check the calendar in µCCC wiki or the Matrix channel https://matrix.to/#/#muenchen:nixos.org
+
+      for confirmation.
+
+      '
+    tag: Germany
+    target: _blank
+    url: https://wiki.muc.ccc.de/nixos
+  - icon: ''
+    keywords: ''
+    logo: assets/netherlands/logo.png
+    name: NixNL
+    subtitle: Dutch Nix Community
+    tag: Netherlands
+    target: _blank
+    url: https://nl.meet.nix-community.org/
+  - icon: fas fa-snowflake
+    keywords: online offline
+    logo: ''
+    name: New York Nix Users Group
+    subtitle: No strict schedule
+    tag: NewYork
+    target: _blank
+    url: https://www.meetup.com/new-york-nix-users-group/
+  - icon: fas fa-snowflake
+    keywords: offline in-person nürnberg germany
+    logo: ''
+    name: Nürnberg NixOS Meetup
+    subtitle: Every third Tuesday at Nerdberg e.V.
+    tag: Germany
+    target: _blank
+    url: https://matrix.to/#/#nixos-nuernberg:matrix.org
+  - icon: fas fa-snowflake
+    keywords: online offline
+    logo: ''
+    name: Oslo NixOS User Group
+    subtitle: No strict schedule
+    tag: Oslo
+    target: _blank
+    url: https://www.meetup.com/Oslo-NixOS-User-Group/
+  - icon: ''
+    keywords: online offline germany nrw
+    logo: assets/paderborn/logo.png
+    name: NixDorf Paderborn
+    subtitle: 4 times a year
+    tag: Germany
+    target: _blank
+    url: https://paderborn.nix.ug
+  - icon: fas fa-snowflake
+    keywords: online in person
+    logo: ''
+    name: Nixers in Paris
+    subtitle: No strict schedule
+    tag: France
+    target: _blank
+    url: https://matrix.to/#/#fr:nixos.org
+  - icon: ''
+    keywords: poland offline in-person warsaw
+    logo: assets/poland/logo.png
+    name: Nix User Group Poland
+    subtitle: No strict schedule
+    tag: Poland
+    target: _blank
+    url: https://discord.gg/eJnKKjQ3Bc
+  - icon: fas fa-snowflake
+    keywords: offline in-person
+    logo: ''
+    name: Nix Romandy
+    subtitle: Swiss French Nix/NixOS community
+    tag: Switzerland
+    target: _blank
+    url: https://www.meetup.com/nix-romandy/
+  - icon: ''
+    keywords: offline in-person seattle washington
+    logo: assets/seattle/logo.png
+    name: Seattle Nix User Group
+    subtitle: 'In-person beginner friendly meet ups and online chat group ❄️
+
+      Check the #Schedule chat in Matrix for details!
+
+      '
+    tag: Seattle
+    target: _blank
+    url: https://matrix.to/#/#seattle-nix-user-group:matrix.org
+  - icon: ''
+    keywords: offline in-person seoul south korea
+    logo: assets/seoul/logo.png
+    name: Nix Seoul Usergroup
+    subtitle: No strict schedule (yet)
+    tag: South Korea
+    target: _blank
+    url: https://nixseoul.club
+  - icon: ''
+    keywords: offline in-person california
+    logo: assets/socal/logo.png
+    name: Socal Nix Users Group
+    subtitle: No strict schedule
+    tag: America
+    target: _blank
+    url: https://socal-nug.com/
+  - icon: fas fa-snowflake
+    keywords: offline in-person california
+    logo: ''
+    name: Socal Gateway Cities Nix Users Group
+    subtitle: No strict schedule
+    tag: America
+    target: _blank
+    url: https://gatewaycities.socal-nug.com/
+  - icon: fas fa-snowflake
+    keywords: offline in-person california
+    logo: ''
+    name: North County San Diego Nix Users Group
+    subtitle: No strict schedule
+    tag: America
+    target: _blank
+    url: https://northcounty.socal-nug.com/
+  - icon: ''
+    keywords: off-line in-person meetings
+    logo: assets/stockholm/logo.png
+    name: Stockholm NixOS Meetup Group
+    subtitle: monthly meetings
+    tag: Sweden
+    target: _blank
+    url: https://matrix.to/#/#stockholm:nixos.org
+  - icon: fas fa-snowflake
+    keywords: offline in-person stuttgart germany
+    logo: ''
+    name: Stuttgart NixOS Meetup
+    subtitle: Every second Tuesday at alternating locations
+    tag: Germany
+    target: _blank
+    url: https://matrix.to/#/#nixos-stuttgart:matrix.org
+  - icon: ''
+    keywords: offline in-person austria österreich vienna
+    logo: assets/vienna/logo.svg
+    name: NixOS User Group Vienna
+    subtitle: '4 times a year: February, May, August, November'
+    tag: Austria
+    target: _blank
+    url: https://vienna.nix.ug
+  - icon: ''
+    keywords: offline in-person zurich switzerland
+    logo: assets/zurich/logo.png
+    name: Nix Zürich
+    subtitle: The Zürich Nix community
+    tag: Switzerland
+    target: _blank
+    url: https://zurich.nix.ug
+  name: NUGs
